@@ -1,16 +1,70 @@
 body
 {
-	background-color : #257E9C ;
+	background-color : #27364C ;
 }
 
-div.imagen
+.wraper
 {
-	
+	background-color : #7E9BA4;
+	position : relative;
 }
 
-div.imagen img
+.wraperBGImage img
 {
-	border-radius: 80px;
-	width : 50px;
-	height : 50px;
+	opacity: 0.4;
+	width : 100%;
+	height : 400px;
+
+}
+
+.wraperAvatar img
+{
+	border-radius: 100% ;
+	width : 250px ;
+	height : 250px ;
+	position: absolute;
+    top: 50%;
+    right : 50%;
+    margin-right: -130px;
+    margin-top: 80px;
+
+	-webkit-box-shadow: 5px 5px 16px 2px  #302e30;
+	-moz-box-shadow: 5px 5px 16px 2px #302e30;
+	box-shadow: 5px 5px 16px 2px #302e30;
+}
+
+.redesSociales
+{
+	position: absolute;
+
+	top: 50%;
+    right : 50%;
+    margin-right: -110px;
+    margin-top: -10px;
+}
+
+.redesSociales > li 
+{
+	list-style: none;
+	display: inline-block;
+	font-size: 55px;
+	margin-left: 15px;
+	color : #E1E9E5;
+}
+
+.redesSociales > li > a:link,
+.redesSociales > li > a:visited,
+.redesSociales > li > a:active
+{
+	opacity: 1;
+	-webkit-transition : opacity 0.7s;
+	-moz-transition : opacity 0.7s;
+	transition : opacity 0.7s;
+	color : #E1E9E5;
+}
+
+
+.redesSociales > li > a:hover
+{
+	opacity: 0.6;
 }
