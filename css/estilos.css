@@ -178,7 +178,7 @@ section
 	margin-left: 15%;
 	position: relative;
 
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 
 .wraperContact_Functions div:first-child
@@ -247,9 +247,8 @@ section
 footer
 {
 	width: 100%;
-	position: absolute;
 	position: relative;
-	bottom: -10px;
+	bottom: 100%;
 	background-color: #F8FBFF;
 	height: 70px;
 }
