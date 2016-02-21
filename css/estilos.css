@@ -3,10 +3,25 @@ body
 	background-color : #27364C ;
 }
 
-.wraper
+header
 {
 	background-color : #7E9BA4;
 	position : relative;
+}
+
+.wraperNombre 
+{
+	position: absolute;
+	right: 50%;
+	margin-right: -230px;
+	top : 40px;
+}
+
+.wraperNombre p
+{
+	color: #fff !important;
+	opacity: 1 !important;
+	font-size: 6em;
 }
 
 .wraperBGImage img
@@ -27,6 +42,14 @@ body
     right : 50%;
     margin-right: -130px;
     margin-top: 80px;
+
+	trasition : box-shadow 1s;
+	-webkit-transition : box-shadow 1s;
+	-moz-transition : box-shadow 1s;
+}
+
+.wraperAvatar img:hover
+{
 
 	-webkit-box-shadow: 5px 5px 16px 2px  #302e30;
 	-moz-box-shadow: 5px 5px 16px 2px #302e30;
@@ -67,4 +90,76 @@ body
 .redesSociales > li > a:hover
 {
 	opacity: 0.6;
+	text-decoration: none;
+}
+
+#MX:hover,
+#USA:hover
+{
+	cursor : pointer;
+}
+
+section
+{
+	margin-top: 150px ;
+}
+
+.description
+{
+	background-color: #F8FBFF;
+	width: 70%;
+	margin-left: 15%;
+	position: relative;
+	padding-top: 50px;
+	border-radius: 10px;
+	padding-bottom: 60px;
+}
+
+.description ul
+{
+	top: 0;
+    right : 50%;
+    position: absolute;
+    margin-right: -57px;
+    margin-top: -10px;
+}
+
+.description ul li
+{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+
+}
+
+.description ul li h1 span 
+{
+	border-radius: 20px;
+}
+
+.description ul li h1 span.active 
+{
+	-webkit-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.75);
+}
+
+.idAboutMe
+{
+}
+
+#idAboutMe
+{
+	font-size: 3em;
+	color : #3F7CC6 ;
+	text-align: center;
+}
+
+.PContenido
+{
+	width: 60% ;
+	margin-left : 20%;
+	font-size: 1.4em;
+	text-align: justify;
+	margin-bottom: 25px;
 }
