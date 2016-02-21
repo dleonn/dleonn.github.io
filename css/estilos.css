@@ -1,6 +1,7 @@
 body
 {
 	background-color : #27364C ;
+	position : relative;
 }
 
 header
@@ -72,24 +73,24 @@ header
 	display: inline-block;
 	font-size: 55px;
 	margin-left: 15px;
-	color : #E1E9E5;
+	
 }
 
 .redesSociales > li > a:link,
 .redesSociales > li > a:visited,
 .redesSociales > li > a:active
 {
-	opacity: 1;
 	-webkit-transition : opacity 0.7s;
 	-moz-transition : opacity 0.7s;
 	transition : opacity 0.7s;
 	color : #E1E9E5;
+	opacity : 0.6;
 }
 
 
 .redesSociales > li > a:hover
 {
-	opacity: 0.6;
+	opacity: 1;
 	text-decoration: none;
 }
 
@@ -113,6 +114,7 @@ section
 	padding-top: 50px;
 	border-radius: 10px;
 	padding-bottom: 60px;
+	margin-bottom: 50px;
 }
 
 .description ul
@@ -154,12 +156,139 @@ section
 	color : #3F7CC6 ;
 	text-align: center;
 }
+#smiley
+{
+	text-align: center;
+	color : #24B6FF;
+	font-size: 2em
+}
 
 .PContenido
 {
-	width: 60% ;
-	margin-left : 20%;
+	width: 80% ;
+	margin-left : 10%;
 	font-size: 1.4em;
 	text-align: justify;
 	margin-bottom: 25px;
 }
+
+.wraperContact_Functions
+{
+	width: 70%;
+	margin-left: 15%;
+	position: relative;
+
+	margin-bottom: 50px;
+}
+
+.wraperContact_Functions div:first-child
+{
+	width: 49%;
+	display: inline-block;
+	background-color: #F8FBFF;
+	border-radius: 10px;
+}
+.wraperContact_Functions div:last-child
+{
+	width: 49%;
+	display: inline-block;
+	background-color: #F8FBFF;
+	border-radius: 10px;
+	position: absolute;
+	right: 0;
+}
+
+.wraperContact_Functions div
+{
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+
+.wraperContact_Functions div span
+{
+	margin-right: 10px;
+}
+
+.wraperContact_Functions div p:first-child
+{
+	text-align: center;
+	color : #3F7CC6;
+	font-size: 2em;
+}
+
+#idEmailTitle
+{
+	font-size: 1.8em;
+	color : #5BBACA;
+}
+
+#idEmailTitle span
+{
+	margin-right: 5px;
+}
+
+#idEmail
+{
+	font-size: 1.6em;
+}
+
+#liSkills li 
+{
+	font-size: 1.5em;
+}
+
+#idSkills
+{
+	color: #FFAF60;
+}
+
+footer
+{
+	width: 100%;
+	position: absolute;
+	position: relative;
+	bottom: -10px;
+	background-color: #F8FBFF;
+	height: 70px;
+}
+
+footer > ul 
+{
+	position: absolute;
+	top : -3px;
+	right : 50%;
+	margin-right: -115px;
+}
+
+footer > ul > li 
+{
+	display: inline-block;
+	list-style: none;
+    margin-right: 45px;
+}
+
+footer > ul > li > a
+{
+	color : #939393; 
+   -webkit-transition: color 0.4s ease-in;
+   -moz-transition: color 0.4s ease-in;
+   transition: color 0.4s ease-in;
+   text-decoration: none;
+}
+
+footer > ul > li > a:active,
+footer > ul > li > a:visited,
+footer > ul > li > a:active
+{
+	color : #939393;
+}
+
+footer > ul > li > a:hover
+{
+	color : #000000;
+	text-decoration: none;
+	
+}
+

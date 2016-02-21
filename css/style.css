@@ -24,13 +24,21 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-grin2:before {
+    content: "\e9ea";
+}
 .icon-facebook2:before {
     content: "\ea8d";
 }
 .icon-twitter2:before {
     content: "\e49e";
 }
+.icon-github4:before {
+    content: "\eab4";
+}
 .icon-linkedin:before {
     content: "\eac8";
 }
-
+.icon-IcoMoon:before {
+    content: "\eaea";
+}
