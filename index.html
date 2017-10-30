@@ -20,7 +20,7 @@
 			<div class="wraperAvatar">
 				<img src="https://pbs.twimg.com/profile_images/477937704408064000/n4sWFZbi.jpeg"></img>
 				<ul class="redesSociales">
-					<li><a href="https://www.facebook.com/diego.leon.1276"><span class="icon-facebook2"></span></a></li>
+					<!--li><a href="https://www.facebook.com/diego.leon.1276"><span class="icon-facebook2"></span></a></li-->
 					<li><a href="https://twitter.com/Dieg0_Leon"><span class="icon-twitter2"></a></li>
 					<li><a href="https://www.linkedin.com/in/diego-leon-365a39a7"><span class="icon-linkedin"></a></li>
 				</ul>
@@ -40,10 +40,6 @@
 
 				<div class="aboutMe">
 					<p id="idAboutMe">Acerca de mi</p>
-
-					<p id="idParrafo1" class="PContenido"></p>
-
-					<p id="idParrafo2" class="PContenido"></p>
 
 					<p id="smiley"><span class="icon-grin2"></span></p>
 				</div>
@@ -70,14 +66,14 @@
 
 		<footer>
 			<ul>
-				<li>
+				<!--li>
 					<a href="http://lipis.github.io/flag-icon-css/">
 						<h1>
 							<span class="icon-github4">
 							</span>
 						</h1>
 					</a>
-				</li>
+				</li-->
 				<li>
 					<a href="https://icomoon.io/#home">
 						<h1>
@@ -93,39 +89,5 @@
 	<!--            SCRIPT            -->
 	<!-- **************************** -->
 	<script type="text/javascript">
-		function changeLang(country)
-		{
-			if(country == 0) // Mexico
-			{
-				$('#idAboutMe').text("Acerca de mi");
-				$('#idParrafo1').text("Hola ! Mi nombre es Diego León, soy una persona a la que le gustan los retos difíciles por que a partir de estos retos me supero a mí mismo, es cuando puedes romper tus barreras para encontrarte con otras más grandes y así superarlas de nuevo, un ciclo interminable.");
-				$('#idParrafo2').text("Recuerdo muy claramente cuando estudiaba el primer año de mi carrera de ingeniería cuando un profesor dijo una frase que siempre, sin importar cual sea la situación, está presente en mi mente : \"Un problema, no importa cual sea, puede ser resuelto de mil maneras.\"");
-
-				$('#idTitleContact').html('<span class="glyphicon glyphicon-user" aria-hidden="true"></span>Contacto');
-
-
-				$('#idSkills').html('<span class="glyphicon glyphicon-fire" aria-hidden="true"></span>Mis habilidades');
-
-				$('#MX').addClass("active");
-				$('#USA').removeClass("active");
-
-			}
-			else // USA
-			{
-				$('#idAboutMe').text("About me");
-				$('#idParrafo1').text("Hi ! I'm Diego, I'm that kind of guy who likes to beat challenges in order to  improve my skills so I can develop even more difficult projects.");
-				$('#idParrafo2').text("I clearly remember when I was on my first year of bachelor's degree, one of my teachers said something that every time I'm in front of a difficult situation is present on my mind : \"A problem, no matter what it is, can be resolved in  thousand ways.\"");
-
-				$('#idTitleContact').html('<span class="glyphicon glyphicon-user" aria-hidden="true"></span>Contact');
-
-
-				$('#idSkills').html('<span class="glyphicon glyphicon-fire" aria-hidden="true"></span>My skills');
-
-				$('#MX').removeClass("active");
-				$('#USA').addClass("active");
-			}
-		}
-
-		changeLang(0);
 	</script>
 </html>
